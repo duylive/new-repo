@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Caculator</h1>
+<table width="80%">
+    <tr>
+        <th colspan="2"><input type="text" name="number" id="inPut1"></th>
+        <th></th>
+        <th colspan="2"><input type="text" name="number" id="inPut2"></th>
+    </tr>
+    <tr>
+        <th><button onclick="add()">Addition(+)</button></th>
+        <th></th>
+        <th><button onclick="sub()">Subtraction(-)</button></th>
+        <th></th>
+        <th><button onclick="mul()">Multiplication(X)</button></th>
+        <th></th>
+        <th><button onclick="divi()">Division(/)</button></th>
+    </tr>
+</table>
+<script>
+    let a= document.getElementById('inPut1');
+    let b= document.getElementById('inPut2');
+    function add() {
+        let tổng = Number(a.value)+ Number(b.value);
+        alert( tổng );
+    }
+    function sub() {
+        let hiệu = Number(a.value)- Number(b.value);
+        alert( hiệu );
+    }
+    function mul() {
+        let tích = Number(a.value)* Number(b.value);
+        alert (tích)
+    }
+    function divi() {
+        let thương = Number(a.value)/ Number(b.value);
+        alert (thương)
+    }
+</script>
+
+</body>
+</html>
