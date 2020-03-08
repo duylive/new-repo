@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table width="80%">
+<tr>
+    <th><p>Amount</p></th>
+    <th></th>
+    <th><p>From Currency</p></th>
+    <th></th>
+    <th><p>To Curency</p></th>
+    <th></th>
+    <th></th>
+</tr>
+<tr>
+    <th><input type="text"name="Number" id="x"></Input></th>
+    <th></th>
+    <th>
+        <select id="Text1">
+            <option value="VN">Việt Nam</option>
+            <option value="US">Mỹ</option>
+        </select>
+    </th>
+
+    <th>
+        <select id="Text2" >
+        <option value="VN">VNĐ</option>
+        <option value="US">USD</option>
+        </select>
+    </th>
+    <th></th>
+    <th><button onclick="myFunction()">Convert</button></th>
+
+</tr>
+    <br>
+<tr>
+    <th><input type="text" id="rs"></th>
+</tr>
+</table>
+</body>
+<script>
+    function myFunction() {
+        let a=document.getElementById('x').value;
+        a=parseFloat(a);
+        if(document.getElementById('Text1').value==document.getElementById('Text2').value){
+            alert('Chuyen doi cung loai')
+        }else{
+
+
+        if (document.getElementById('Text1').value=='VN'){
+            document.getElementById('rs').value= a/23000;
+        }else {
+            document.getElementById('rs').value=a*23000;
+        }
+    }}
+</script>
+</html>

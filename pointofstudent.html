@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Điểm trung bình</title>
+    </head>
+    <body>
+    <script>
+    let vatly;
+    let hoahoc;
+    let sinhhoc;
+    vatly = prompt ("Điểm vật lý");
+    hoahoc = prompt ("Điểm hóa học");
+    sinhhoc = prompt ("Điểm sinh học");
+    let phy = parseInt (vatly);
+    let che = parseInt (hoahoc);
+    let bio = parseInt (sinhhoc);
+    let TB = (phy+che+bio) / 3;
+    document.write("The tb is: " + TB);
+    document.write('<br/>');
+    let sum = (phy+che+bio);
+    document.write("The sum is:" + sum);
+</script>
+
+</body>
+</html>
