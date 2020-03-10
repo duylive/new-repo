@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_leap_yeard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IBM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_month_leapyear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numberday_in_month.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointofstudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/pointofstudent.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,21 +67,41 @@
       <workItem from="1583537193177" duration="737000" />
       <workItem from="1583619756900" duration="3716000" />
       <workItem from="1583703379914" duration="567000" />
-      <workItem from="1583704674596" duration="1276000" />
+      <workItem from="1583704674596" duration="2621000" />
+      <workItem from="1583727396329" duration="392000" />
+      <workItem from="1583771717343" duration="2403000" />
+      <workItem from="1583779111885" duration="11158000" />
+      <workItem from="1583809653984" duration="2830000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1583706130841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583706130841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583706103471">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583706129076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583706103471" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583706129076" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583516574255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583516574255" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583706141591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583706141591" />
   </component>
 </project>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function IBM(){
+    let w;
+    w = prompt("Cân nặng");
+    w = Number.parseFloat(w);
+    let h;
+    h = prompt("Chiều cao");
+    h = Number.parseFloat(h);
+
+    let IBM = (w/h*2);
+        if (IBM < 18 ) {
+            document.write("Underweigth");
+        }else if (IBM < 25) {
+            document.write("Normal");
+        }else if (IBM < 30) {
+            document.write("Overweigth");
+        }else
+            document.write("obese")
+    }
+
+</script>
+<button onclick="IBM()">Nhập IBM</button>
+</body>
+</html>

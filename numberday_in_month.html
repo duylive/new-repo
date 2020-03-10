@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function tinhSoNgay(){
+            let month = document.getElementById("Nhập tháng").value ;
+            month = Number.parseInt(month);
+
+            alert("Tháng" + month + "có" + tinhNgay(month) );
+        }
+
+        function tinhNgay(month) {
+            switch (month) {
+                case 1 :
+                    return "31 ngày";
+                case 2 :
+                    return "28 hoặc 29 ngày";
+                case 3 :
+                    return "31 ngày";
+                case 4 :
+                    return "30 ngày";
+                case 5 :
+                    return "31 ngày";
+                case 6 :
+                    return "30 ngày";
+                case 7 :
+                    return "31 ngày";
+                case 8 :
+                    return "31 ngày";
+                case 9 :
+                    return "30 ngày";
+                case 10 :
+                    return "31 ngày";
+                case 11 :
+                    return "30 ngày";
+                case 12 :
+                    return "31 ngày";
+                default :
+                    return  "Không biết"
+
+            }
+
+        }
+    </script>
+</head>
+<body>
+<input type="text" name="number" id="Nhập tháng"><button onclick="tinhSoNgay()">Nhập tháng</button>
+</body>
+</html>
