@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let count = 0;
+        function changeOrther(val){
+            count++;
+            if(count > 2){
+                let idStr = "cgf_" + val;
+                document.getElementById(idStr).checked = false;
+                count--;
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="checkbox" id="cgf_1" onchange="changeOrther(2)"> good
+<input type="checkbox" id="cgf_2" onchange="changeOrther(3)"> cheap
+<input type="checkbox" id="cgf_3" onchange="changeOrther(1)"> fast
+</body>
+</html>

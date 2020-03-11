@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function tinhSongay() {
+            let month1 = document.getElementById("month_1").value;
+            month1 = Number.parseInt(month1);
+
+            let month2 = document.getElementById("month_2").value;
+            month2 = Number.parseInt(month2);
+
+            let x = Number(tinhNgay(month1)) + Number(tinhNgay(month2));
+            alert("Có" + x + "ngày")
+
+        }
+        function tinhNgay(month1) {
+            switch (month1) {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    return "31";
+                case 2:
+                    return "28";
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    return "30";
+                default:
+                    break;
+            }
+            function tinhNgay(month2) {
+                switch (month2) {
+                    case 1:
+                    case 3:
+                    case 5:
+                    case 7:
+                    case 8:
+                    case 10:
+                    case 12:
+                        return "31";
+                    case 2:
+                        return "28";
+                    case 4:
+                    case 6:
+                    case 9:
+                    case 11:
+                        return "30";
+                    default:
+                        break;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="text" name="number" id="month_1">
+<input type="text" name="number" id="month_2">
+<button onclick="tinhSongay()">Kết quả</button>
+</body>
+</html>
