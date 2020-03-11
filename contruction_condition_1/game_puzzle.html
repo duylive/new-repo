@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img onclick="ClickImg1('1')" src="funny-cat1_part1x1.jpg" alt="img1" id="1" height="150px" width="800px"/>
+<img onclick="ClickImg1('2')" src="funny-cat1_part2x1.jpg" alt="img2" id="2" height="150px" width="800px"/>
+<img onclick="ClickImg1('3')" src="funny-cat1_part3x1.jpg" alt="img3" id="3" height="150px" width="800px"/>
+<img onclick="ClickImg1('4')" src="funny-cat1_part4x1.jpg" alt="img4" id="4" height="150px" width="800px"/>
+</body>
+<script>
+    function ClickImg1(index) {
+        let imgSrc1 = document.getElementById(index);
+        switch (imgSrc1.alt) {
+            case "img1" :
+                imgSrc1.src = "funny-cat1_part2x1.jpg";
+                imgSrc1.alt = "img2";
+                break;
+            case "img2" :
+                imgSrc1.src = "funny-cat1_part3x1.jpg";
+                imgSrc1.alt = "img3";
+                break;
+            case "img3" :
+                imgSrc1.src = "funny-cat1_part4x1.jpg";
+                imgSrc1.alt = "img4";
+                break;
+            case "img4" :
+                imgSrc1.src = "funny-cat1_part5x1.jpg";
+                imgSrc1.alt = "img5";
+                break;
+            default :
+                imgSrc1.src = "funny-cat1_part1x1.jpg";
+                imgSrc1.alt = "img5"
+
+        }
+
+    }
+</script>
+</html>

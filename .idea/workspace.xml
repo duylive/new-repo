@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="" />
+    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/caculator_simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part1x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part2x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part3x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part4x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part5x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contruction_condition_1/game_puzzle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/love.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YfzVSQHCU07EYRW6vbCNU7TZ4S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,6 +53,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_1" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +81,10 @@
       <workItem from="1583727396329" duration="392000" />
       <workItem from="1583771717343" duration="2403000" />
       <workItem from="1583779111885" duration="11158000" />
-      <workItem from="1583809653984" duration="3234000" />
+      <workItem from="1583809653984" duration="6977000" />
+      <workItem from="1583853050534" duration="4755000" />
+      <workItem from="1583861264886" duration="6153000" />
+      <workItem from="1583872950912" duration="10236000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -86,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583812886671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new">
+      <created>1583812980161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583812980161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,18 +125,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583812884609">
+    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583883355090">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583812884609" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583516574255">
+    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583883355090" />
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583812977989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583516574255" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583706141591">
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583812977989" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583883081509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583706141591" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583883081509" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583812994153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583812994153" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
