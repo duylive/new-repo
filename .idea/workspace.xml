@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="new">
-      <change afterPath="$PROJECT_DIR$/days_in_a_month_a_year.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good_fast_cheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_loop_dowhile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_loop_for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_loop_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap_longnhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_cuu_chuong.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +81,7 @@
       <workItem from="1583905380881" duration="181000" />
       <workItem from="1583939922969" duration="8355000" />
       <workItem from="1583951404792" duration="253000" />
-      <workItem from="1583959000608" duration="5173000" />
+      <workItem from="1583959000608" duration="6460000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -144,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583943418041</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new">
+      <created>1583965247896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583965247896</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,10 +161,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583883355090" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583943852291">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583965302385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583943852291" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583965302385" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583883081509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -171,10 +173,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583943422713">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583965252070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583943422713" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583965252070" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
