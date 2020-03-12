@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caro minigame</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<style>
+    h2 {
+        color: orangered;
+    }
+</style>
+
+<h2>Caro game</h2>
+<p id="carogame"/>
+<input type="button" value="Change Value" onclick="changeValue()">
+
+<script>
+    let b=document.getElementById('carogame');
+    let board= [];
+    let data='';
+    for (let i=0;i<5;i++){
+        board[i]= new Array(0,0,0,0,0);
+    }
+    for (let i=0;i<5;i++){
+        data+='<br>';
+        for (let j=0;j<5;j++){
+            data += board[i][j] + '&nbsp;&nbsp';
+        }
+
+    }
+    data+= '<br><br> <input type="button" value="Change value" onclick="changeValue()">'
+    b.innerHTML=data;
+
+    function changeValue() {
+        let positionX= prompt('Nhập x:')
+        let positionY=prompt('Nhập y:')
+        data='';
+        board[positionX][positionY]='x';
+        for (let i=0;i<5;i++){
+            data+='<br>';
+            for (let j=0;j<5;j++){
+                data+= board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+        }
+        data+= '<br><br> <input type="button" value="Change value" onclick="changeValue()">'
+        b.innerHTML=data;
+
+    }
+</script>
+</body>
+</html>
