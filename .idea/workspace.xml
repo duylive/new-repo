@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="new">
-      <change afterPath="$PROJECT_DIR$/USC_max.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_1/use_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/print_rectangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sum_of_number.html" afterDir="false" />
+    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/array_1/find_max_in_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_1/find_value_in_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_1/reverse_array.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\array_1" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_1" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_loop_2" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_2" />
@@ -89,7 +89,7 @@
       <workItem from="1583959000608" duration="9287000" />
       <workItem from="1583991199288" duration="725000" />
       <workItem from="1584028049565" duration="5945000" />
-      <workItem from="1584045929650" duration="5709000" />
+      <workItem from="1584045929650" duration="8021000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583991250990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new">
+      <created>1584051838367</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584051838367</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583972399667" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584031768946">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584051835864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584031768946" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584051835864" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583972491923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,10 +209,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583991256649">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584051843446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583991256649" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584051843446" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
