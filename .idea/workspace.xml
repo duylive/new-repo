@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
+    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="new">
+      <change afterPath="$PROJECT_DIR$/USC_max.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_1/use_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print_rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum_of_number.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/IBM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_2/bang_cuu_chuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part1x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part1x1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part2x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part2x1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part3x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part3x1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part4x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part4x1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part5x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part5x1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contruction_condition_1/game_puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/game_puzzle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_month_leapyear.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_1/day_month_leapyear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/days_in_a_month_a_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_1/days_in_a_month_a_year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/good_fast_cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/good_fast_cheap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/love.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberday_in_month.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_1/numberday_in_month.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_loop_dowhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/use_loop_dowhile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_loop_for.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/use_loop_for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_loop_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/use_loop_while.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vonglap_longnhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/vonglap_longnhau.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +87,9 @@
       <workItem from="1583939922969" duration="8355000" />
       <workItem from="1583951404792" duration="253000" />
       <workItem from="1583959000608" duration="9287000" />
+      <workItem from="1583991199288" duration="725000" />
+      <workItem from="1584028049565" duration="5945000" />
+      <workItem from="1584045929650" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -178,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583967009636</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new">
+      <created>1583991250990</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583991250990</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,10 +190,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583972399667" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583967005511">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584031768946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583967005511" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584031768946" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583972491923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,13 +202,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583967012776">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583991256649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583967012776" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583991256649" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1583812947076" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contruction_condition_1/days_in_a_month_a_year.html</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

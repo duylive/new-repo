@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function USCLN(a, b) {
+            while(a!=b)
+            if(a>b)
+                a -=b;
+            else
+                b -=a;
+        return a;
+        }
+
+        function timUSCLN(){
+            let a = +prompt("Nhập số thứ nhất")
+            let b = +prompt("Nhập số thứ hai")
+            alert("USCLN(" + a + b + ") = " +(USCLN(a, b)));
+        }
+    </script>
+</head>
+<body>
+<button onclick="timUSCLN()">Tìm USCLN</button>
+</body>
+</html>
