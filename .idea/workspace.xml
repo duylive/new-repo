@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="new">
-      <change afterPath="$PROJECT_DIR$/bang_cuu_chuong.html" afterDir="false" />
+    <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/IBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_2/bang_cuu_chuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part1x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part1x1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part2x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part2x1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part3x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part3x1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part4x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part4x1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contruction_condition_1/funny-cat1_part5x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/funny-cat1_part5x1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contruction_condition_1/game_puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/game_puzzle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_month_leapyear.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_1/day_month_leapyear.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/days_in_a_month_a_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_1/days_in_a_month_a_year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good_fast_cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/good_fast_cheap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/love.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_2/love.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numberday_in_month.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_condition_1/numberday_in_month.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use_loop_dowhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/use_loop_dowhile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use_loop_for.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/use_loop_for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use_loop_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/use_loop_while.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vonglap_longnhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/vonglap_longnhau.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +65,8 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_1" />
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_loop_2" />
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_2" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -81,7 +99,7 @@
       <workItem from="1583905380881" duration="181000" />
       <workItem from="1583939922969" duration="8355000" />
       <workItem from="1583951404792" duration="253000" />
-      <workItem from="1583959000608" duration="6460000" />
+      <workItem from="1583959000608" duration="9287000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -146,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583965247896</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new">
+      <created>1583966967002</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583966967002</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new">
+      <created>1583967009636</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583967009636</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,26 +189,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583883355090">
+    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583972399667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583883355090" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583966962177">
+    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583972399667" />
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583967005511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583966962177" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583883081509">
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583967005511" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583972491923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583883081509" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583972491923" />
     <state x="372" y="19" key="SettingsEditor" timestamp="1583905184558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583965252070">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583967012776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583965252070" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583967012776" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
