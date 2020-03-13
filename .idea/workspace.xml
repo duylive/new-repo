@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array_1/caro_simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_1/rewre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_1/practice_array.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/Math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap_for.html" beforeDir="false" afterPath="$PROJECT_DIR$/contruction_loop_1/lap_for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myif.html" beforeDir="false" afterPath="$PROJECT_DIR$/if_else/myif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamgiac.html" beforeDir="false" afterPath="$PROJECT_DIR$/if_else/tamgiac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_leap_yeard.html" beforeDir="false" afterPath="$PROJECT_DIR$/if_else/test_leap_yeard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_number.html" beforeDir="false" afterPath="$PROJECT_DIR$/if_else/test_number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangel.html" beforeDir="false" afterPath="$PROJECT_DIR$/if_else/triangel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_loop_1" />
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\if_else" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\array_1" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_1" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_loop_2" />
-      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_condition_2" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -88,7 +95,9 @@
       <workItem from="1583959000608" duration="9287000" />
       <workItem from="1583991199288" duration="725000" />
       <workItem from="1584028049565" duration="5945000" />
-      <workItem from="1584045929650" duration="10534000" />
+      <workItem from="1584045929650" duration="11688000" />
+      <workItem from="1584071039753" duration="234000" />
+      <workItem from="1584112451695" duration="5168000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -188,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584054101071</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new">
+      <created>1584057017322</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584057017322</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,10 +219,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583972399667" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584054098637">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584057014998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584054098637" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584057014998" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583972491923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,10 +231,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584054104514">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584057021691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584054104514" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584057021691" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
