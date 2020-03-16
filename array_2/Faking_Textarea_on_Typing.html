@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <script>
+        let a = new Array();
+        let n = '';
+        a[1] = 'D';
+        a[2] = 'U';
+        a[3] = 'Y';
+        a[4] = ' ';
+        a[5] = 'Đ';
+        a[6] = 'Ẹ';
+        a[7] = 'P';
+        a[8] = ' ';
+        a[9] = 'T';
+        a[10] = 'R';
+        a[11] = 'A';
+        a[12] = 'I';
+
+        function typeTextarea() {
+            t = document.f.txt.value;
+            j = t.length;
+            if (j > 0) {
+                for (let i = 1; i <= j; i++) {
+                    n = n + a[i];
+                    if (i == 13) {
+                        document.f.txt.value = "";
+                        n = '';
+                    }
+                }
+            }
+            document.f.txt.value = n;
+            n = "";
+            setTimeout("typeTextarea()", 1);
+        }
+
+    </script>
+<body>
+<center>
+    <h1>You can do every things</h1>
+    <form name="f">
+        <textarea name="txt" cols="30" rows="10" onkeydown="typeTextarea()"></textarea>
+    </form>
+</center>
+
+</body>
+</html>

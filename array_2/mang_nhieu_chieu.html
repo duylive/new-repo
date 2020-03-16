@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let myArray;
+    let nRow, nColumn;
+
+    function initArray() {
+        nRow = +prompt("Nhập số dòng");
+        nColumn = +prompt("Nhập số cột");
+
+        myArray = new Array(nRow);
+        for (let i = 0; i < nRow; i++) {
+            myArray[i] = new Array(nColumn);
+            for (let j = 0; j < nColumn; j++)
+                myArray[i][j] = Math.round(Math.random() * 1000);
+        }
+    }
+
+    function showArray() {
+        let i, j;
+        document.write("<table border='1'>");
+        for (i = 0; i < nRow; i++) {
+            document.write("<tr>");
+            for (j = 0; j < nColumn; j++)
+                document.write("<td>" + myArray[i][j] + " ");
+                document.write("</tr>");
+            }
+            document.write("</table>");
+        }
+
+    function calRowSum(rowIndex) {
+        if (rowIndex <= 0 || rowIndex >= nRow)
+            return 0;
+
+        let sum = 0;
+        for (let j = 0; j < nColumn; j++)
+            sum += myArray[rowIndex][j];
+        return sum;
+    }
+
+    function calColumnSum(columnIndex) {
+        if (columnIndex <= 0 || columnIndex >= nColumn)
+            return 0;
+        let sum = 0;
+        for (let i = 0; i < nRow; i++)
+            sum += myArray[i][columnIndex];
+
+        return sum;
+
+    }
+
+    initArray();
+    showArray();
+    document.write("Tổng hàng 1 là:" + calRowSum(1));
+    document.write("Tổng cột 2 là:" + calColumnSum(2));
+
+
+</script>
+</body>
+</html>
