@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th><strong>Tiếng Anh</strong></th>
+        <th><strong>Tiếng Việt</strong></th>
+    </tr>
+    <tr>
+        <td><input type="text" name=" " id="inPut1"></td>
+        <td><input id="inPut2"></td>
+        <td>
+            <button id="click" onclick="tranSlate()">Dịch</button>
+        </td>
+    </tr>
+</table>
+<script>
+
+    function tranSlate() {
+        let English = ["Hello", "Goodbye", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+        let VietNam = ["Xin-chào", "Tạm-biệt", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín", "mười", "thứ-hai", "thứ-ba", "thứ-tư", "thứ-năm", "thứ-sáu", "thứ-bảy", "chủ-nhật"];
+        let inputText = document.getElementById("inPut1").value;
+        for (let i = 0; i < English.length; i++) {
+            if (inputText === English[i]) {
+                return document.getElementById("inPut2").value = VietNam[i];
+            }
+            document.getElementById("inPut2").value = "Unavaiable";
+        }
+    }
+</script>
+</body>
+</html>
