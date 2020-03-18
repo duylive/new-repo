@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function myConvert1(index1) {
+            index1 = parseFloat(index1);
+            document.getElementById("outputMeter").innerHTML = index1 * 0.305 ;
+        }
+        function myConvert2(index2) {
+            index2 = parseFloat(index2);
+            document.getElementById("outputFeet").innerHTML = index2 * 3.279 ;
+        }
+    </script>
+</head>
+<body>
+<table width="80%" align="center">
+    <tr>
+        <th><strong>Feet</strong></th>
+        <th><strong>Meter</strong></th>
+        <th><strong>Meter</strong></th>
+        <th><strong>Feet</strong></th>
+    </tr>
+    <tr>
+        <td align="center">
+        <input type="number" id="inputFeet"
+        oninput="myConvert1(this.value)"
+        onchange="myConvert1(this.value">
+        </td>
+        <td align="center"><span id="outputMeter"></span></td>
+        <td align="center">
+        <input type="number" id="inputMeter"
+        oninput="myConvert2(this.value)"
+        onchange="myConvert2(this.value">
+        </td>
+        <td align="center"><span id="outputFeet"></span></td>
+    </tr>
+
+</table>
+</body>
+</html>
