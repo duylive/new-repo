@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+<body>
+<div class="mobile" id="iphone">
+    <div class="title-name" id="iphone-name">Mobile1</div>
+    <div class="inbox" id="iphone-inbox">inbox</div>
+    <div class="outbox" id="iphone-outbox">outbox</div>
+    <input class="msg" id="iphone-mgs" oninput="mobile1.writeMsg(this.value)" placeholder="message...">
+    <button class="send">Send</button>
+</div>
+<div class="mobile" id="samsung">
+    <div class="title-name" id="samsung-name">Mobile1</div>
+    <div class="inbox" id="samsung-inbox">inbox</div>
+    <div class="outbox" id="samsung-outbox">outbox</div>
+    <input class="msg" id="samsung-mgs" oninput="mobile2.writeMsg(this.value)" placeholder="message...">
+    <button class="send">Send</button>
+</div>
+<script>
+    class Mobile {
+        constructor(name) {
+            this.name = name;
+            this.status = true;
+            this.battery = 100;
+            this.msg = "";
+            this.inbox = [];
+            this.outbox = [];
+        }
+
+        writeMsg(value) {
+            this.msg = value;
+        }
+
+        receiveMsg(name, msg) {
+            this.inbox.push(name + ":" + msg);
+        }
+
+        sendMsg(mobile) {
+            mobile.receiveMsg(this.name, this.msg);
+            this.outbox.push(this.msg);
+        }
+    }
+
+    let mobile1 = new Mobile("Iphone");
+    let mobile2 = new Mobile("SamSung");
+
+
+    }
+
+    function sendMess(m1, m2) {
+        m1.sendMsg(m2);
+        document.getElementById("iphone-inbox").innerHTML = mobile1.inbox;
+        document.getElementById("iphone-outbox").innerHTML = mobile1.outbox;
+        document.getElementById("samsung-inbox").innerHTML = mobile2.inbox;
+        document.getElementById("samsung-outbox").innerHTML = mobile2.outbox;
+        document.getElementById("iphone-msg").value = "";
+        document.getElementById("samsung-msg").value = "";
+
+    }
+
+    sendMess();
+
+
+</script>
+
+</body>
+</html>

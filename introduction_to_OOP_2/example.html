@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*1/ Cho biết hôm nay là thứ mấy bằng Tiếng Việt
+        2/ Nhập 1 xâu ký tự và chuẩn hóa xâu:
+        -Không có ký tự trắng ở đầu và cuối câu
+        -Không có nhiều dấu cách liên tiếp nhau
+        -Chỉ đầu mỗi từ viết hoa
+        VD:
+         */
+
+        function normalizeString(str) {
+            let a = str.split(" ");
+            alert(a.join());
+            let b = new Array();
+            for (let i = 0; i < a.length; i++)
+                if (a[i].length > 0)
+                    b.push(a[i]);
+            let tmp = b.join(" ");
+
+            let tmpUpper = tmp.toUpperCase();
+            tmp = tmp.toLowerCase();
+
+            tmp = tmpUpper.charAt(0) + tmp.substring(1, tmp.length);
+
+            for (i = 1; i < tmp.length; i++)
+                if (tmp.charAt(i) == ' ')
+                    tmp = tmp.substring(0, i + 1) + tmpUpper.charAt(i + 1) + tmp.substring(i + 2, tmp.length);
+
+            return tmp;
+
+        }
+
+        alert(normalizeString("   NGuyễN    ĐứC    DUy  "));
+
+
+        /*   function getDay() {
+               const THU = ["Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy"];
+               let d = new Date();
+               let dayIndex = d.getDay();
+
+               return THU[dayIndex];
+           }
+
+           let d1 = new Date();
+
+           document.write("Hôm nay là:" + getDay());
+
+           let d2 = new Date();
+
+           document.write("Thời gian thực hiện:" + (d2.getMilliseconds() - d1.getMilliseconds()));
+   */
+    </script>
+</head>
+<body>
+
+</body>
+</html>
