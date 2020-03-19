@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/introduction_to_OOP/create_class_Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introduction_to_OOP/create_class_circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introduction_to_OOP/introduction_example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/introduction_to_OOP/create_class_rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/introduction_to_OOP/funny_circle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_2/convert_feet&amp;meter.html" beforeDir="false" afterPath="$PROJECT_DIR$/function_2/convert_feet&amp;meter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduction_to_OOP/create_class_Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduction_to_OOP/create_class_Date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduction_to_OOP/create_class_circle.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduction_to_OOP/create_class_circle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,8 @@
       <workItem from="1584477714896" duration="11666000" />
       <workItem from="1584504074973" duration="227000" />
       <workItem from="1584549328040" duration="6614000" />
-      <workItem from="1584565909866" duration="6837000" />
+      <workItem from="1584565909866" duration="10588000" />
+      <workItem from="1584587818806" duration="6723000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584489937532</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="new">
+      <created>1584575188438</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584575188438</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,10 +298,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583972399667" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584489932327">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584575186344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584489932326" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584575186344" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583972491923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -302,10 +310,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584489941397">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584575191407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584489941397" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584575191407" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

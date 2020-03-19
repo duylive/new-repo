@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <canvas id="myCanvas" width="1280" height="680" style="border: 1px solid #d3d3d3"></canvas>
+</head>
+<body>
+<script>
+   function Rectangle(x, y, long, wide) {
+       this.x = x;
+       this.y = y;
+       this.long = long;
+       this.wide = wide;
+       this.getPerimeter = function () {
+           return (this.long + this.wide) * 2 ;
+       };
+
+       this.getArea = function () {
+           return this.long * this.wide ;
+       };
+
+        this.createRectangle = function () {
+           let ctx = document.getElementById('myCanvas').getContext("2d");
+           let rectangle = new Rectangle(x, y, long, wide);
+           ctx.fillRect(rectangle.x, rectangle.y, rectangle.long, rectangle.wide);
+        };
+
+        this.setRec = function (x, y, long, wide) {
+           this.long = long;
+           this.wide = wide;
+        };
+        this.show = function () {
+           return 'chu vi là : ' + this.getPerimeter() + 'diện tích là :' + this.getArea();
+        }
+   }
+   let rectangle = new Rectangle(0, 0, 100, 200);
+   console.log(rectangle.getPerimeter());
+   console.log(rectangle.getArea());
+   rectangle.createRectangle();
+   rectangle.setRec(0, 0, 200, 400);
+   alert(rectangle.show());
+</script>
+</body>
+</html>
