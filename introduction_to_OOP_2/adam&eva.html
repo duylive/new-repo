@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="Eva">
+    <button id="evaTalk" onclick="eva.say()">Eva nói</button>
+    <button id="evaEat" onclick="eva.eat(apple)">Eva ăn táo</button>
+    <button id="evaWeight" onclick="eva.getWeight()">Cân nặng của Eva</button>
+    <img src="female.png" height="120" width="120"/>
+</div>
+<div class="Adam">
+    <button id="adamTalk" onclick="adam.say()">Adam nói</button>
+    <button id="adamEat" onclick="adam.eat(apple)">Adam ăn táo</button>
+    <button id="adamWeight" onclick="adam.getWeight()">Cân nặng của Adam</button>
+    <img src="male.png" height="120" width="120"/>
+    <button onclick="checkApple(apple)">Check</button>
+</div>
+<script>
+    let Apple = function () {
+        this.weight = 3;
+        this.status = true;
+        this.getWeight = function () {
+            return this.weight;
+        };
+        this.reduced = function () {
+            if (this.weight > 0) {
+                this.weight--;
+            }
+        };
+        this.isEmpty = function () {
+            if (this.getWeight() == 0) {
+                this.status = false;
+            } else if (this.getWeight() > 0) {
+                this.status = true;
+            }
+            return this.status;
+        }
+    };
+    let Human = function (name, gender, weight) {
+        this.name = name;
+        this.gender = gender;
+        this.weight = weight;
+        this.getName = function () {
+            return this.name;
+        };
+        this.setName = function (name) {
+            this.name = name;
+        };
+        this.getWeight = function () {
+            alert("Cân nặng của" + this.name + "là" + this.weight);
+            return this.weight;
+        };
+        this.setWeight = function (weight) {
+            this.weight = weight;
+        };
+        this.checkApple = function () {
+            if (this.isEmpty() == false) {
+                alert('Đã ăn hết táo !!!');
+            }
+        };
+        this.eat = function (apple) {
+            apple.reduced();
+            this.weight++;
+            alert('Vừa ăn 1 miếng');
+            alert("còn" + apple.weight + "miếng táo");
+        };
+        this.say = function () {
+            alert(this.name + ' Hello');
+        }
+    };
+    let adam = new Human("Adam", 'male', 50);
+    let eva = new Human("Eva", 'female', 40);
+    let apple = new Apple();
+</script>
+</body>
+</html>
