@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let Lamp = function (name) {
+       this.name = name;
+       this.status = true;
+       this.turnOn = function () {
+           if (this.status){
+               alert ("Đèn đã được bật");
+           } else {
+               alert ("Đèn đang sáng");
+               this.status = false;
+           }
+       };
+       this.turnOff = function () {
+           if (this.status) {
+               alert ("Đèn đã được tắt");
+               this.status = true;
+           } else {
+               alert ("Đèn đang sáng");
+           }
+       };
+   };
+   let Switch = function () {
+       this.lamp = [];
+       this.connectStatus = false;
+       this.connectToLamp = function (obj) {
+           this.lamp = obj;
+           this.status = true;
+       };
+       this.getStatus = function () {
+           if (this.status) {
+               console.log(this.lamp.name);
+               console.log(this.lamp.status);
+           }
+       };
+       this.turnOff = function () {
+           if (this.status){
+               this.lamp.turnOff();
+               this.getStatus();
+           }
+       };
+       this.turnOn = function () {
+           if (this.status){
+               this.lamp.turnOn();
+               this.getStatus();
+           }
+       }
+   };
+
+   let sonySwitch = new Switch();
+   let sonyLamp = new Lamp("abc");
+   sonySwitch.connectToLamp(sonyLamp);
+   sonySwitch.turnOn();
+   sonySwitch.turnOff();
+</script>
+</body>
+</html>
