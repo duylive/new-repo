@@ -7,20 +7,20 @@
 <body>
 <div id="game"></div>
 <script>
-    function Hero(image, top, left, size){
+    function Hero(image, top, left, size) {
         this.image = image;
         this.top = top;
         this.left = left;
         this.size = size;
 
-        this.getHeroElement = function(){
-            return '<img width="'+ this.size + '"' +
-                ' height="'+ this.size + '"' +
-                ' src="' + this.image +'"' +
-                ' style="top: '+this.top+'px; left:'+this.left+'px;position:absolute;" />';
+        this.getHeroElement = function () {
+            return '<img width="' + this.size + '"' +
+                ' height="' + this.size + '"' +
+                ' src="' + this.image + '"' +
+                ' style="top: ' + this.top + 'px; left:' + this.left + 'px;position:absolute;" />';
         };
 
-        this.moveRight = function(){
+        this.moveRight = function () {
             this.left += 100;
             console.log('ok: ' + this.left);
         };
@@ -30,35 +30,34 @@
             console.log('ok: ' + this.right);
         };
 
-        this.moveUp = function () {
-            this.down += 100;
-            console.log('ok: ' + this.down);
-        };
-
         this.moveDown = function () {
-            this.up += 100;
-            console.log('ok: ' + this.up);
+            this.top += 100;
+            console.log('ok: ' + this.top);
         };
 
+        this.moveUp = function () {
+            this.bottom += 100;
+            console.log('ok: ' + this.bottom);
+        };
     }
-    let hero = new Hero('songoku.jpg', 20,30,200);
+
+    let hero = new Hero('songoku.jpg', 20, 30, 200);
 
     function start() {
-        if(hero.left < window.innerWidth - hero.size){
+        if (hero.left < window.innerWidth - hero.size) {
             hero.moveRight();
-        }
-        if (hero.right < window.innerWidth - hero.size){
+        }else if (hero.right < window.innerWidth - hero.size) {
             hero.moveLeft();
-        }
-        if (hero.up < window.innerHeight - hero.size){
+        }else if (hero.top < window.innerHeight - hero.size) {
             hero.moveDown();
-        }
-        if (hero.down < window.innerHeight - hero.size){
+        }else if (hero.bottom < window.innerHeight - hero.size) {
             hero.moveUp();
         }
+
         document.getElementById("game").innerHTML = hero.getHeroElement();
         setTimeout(start, 200)
     }
+
     start();
 </script>
 </body>
