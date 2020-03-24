@@ -16,7 +16,6 @@
     <button id="adamEat" onclick="adam.eat(apple)">Adam ăn táo</button>
     <button id="adamWeight" onclick="adam.getWeight()">Cân nặng của Adam</button>
     <img src="male.png" height="120" width="120"/>
-    <button onclick="checkApple(apple)">Check</button>
 </div>
 <script>
     let Apple = function () {
@@ -57,7 +56,7 @@
             this.weight = weight;
         };
         this.checkApple = function () {
-            if (this.isEmpty() == false) {
+            if (this.isEmpty() === false) {
                 alert('Đã ăn hết táo !!!');
             }
         };

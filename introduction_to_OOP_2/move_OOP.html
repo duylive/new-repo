@@ -26,17 +26,17 @@
         };
 
         this.moveLeft = function () {
-            this.right += 100;
+            this.left -= 100;
             console.log('ok: ' + this.right);
         };
 
         this.moveDown = function () {
             this.top += 100;
-            console.log('ok: ' + this.top);
+            console.log('top: ' + this.top);
         };
 
         this.moveUp = function () {
-            this.bottom += 100;
+            this.top -= 100;
             console.log('ok: ' + this.bottom);
         };
     }
@@ -44,20 +44,19 @@
     let hero = new Hero('songoku.jpg', 20, 30, 200);
 
     function start() {
-        if (hero.left < window.innerWidth - hero.size) {
+        if (hero.left < window.innerWidth - hero.size && hero.top <= 0) {
             hero.moveRight();
-        }else if (hero.right < window.innerWidth - hero.size) {
-            hero.moveLeft();
-        }else if (hero.top < window.innerHeight - hero.size) {
+        } else if (hero.top < window.innerHeight - hero.size && hero.left > window.innerWidth - hero.size) {
             hero.moveDown();
-        }else if (hero.bottom < window.innerHeight - hero.size) {
+        } else if (hero.left > 0 && hero.top > window.innerHeight - hero.size) {
+            hero.moveLeft();
+        } else if (hero.top > 0) {
             hero.moveUp();
         }
 
         document.getElementById("game").innerHTML = hero.getHeroElement();
         setTimeout(start, 200)
     }
-
     start();
 </script>
 </body>
