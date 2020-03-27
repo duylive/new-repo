@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b562a5a0-2fe6-47dd-95e1-5155e67e2221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_Study_Module1/get_1_point.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_Study_Module1/snake.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction_to_OOP_2/adam&amp;eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduction_to_OOP_2/adam&amp;eva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction_to_OOP_2/move_OOP.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduction_to_OOP_2/move_OOP.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\Case_Study_Module1" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\introduction_to_OOP_2" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\introduction_to_OOP" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\if_else" />
       <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\type_data &amp; math" />
-      <recent name="C:\Users\User\WebstormProjects\untitled1\untitled\contruction_loop_1" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -123,7 +124,38 @@
       <workItem from="1585083958405" duration="1754000" />
       <workItem from="1585085776782" duration="1762000" />
       <workItem from="1585087594662" duration="1000000" />
-      <workItem from="1585089725098" duration="675000" />
+      <workItem from="1585089725098" duration="936000" />
+      <workItem from="1585152360196" duration="1831000" />
+      <workItem from="1585155660899" duration="1765000" />
+      <workItem from="1585157552725" duration="1368000" />
+      <workItem from="1585159374311" duration="1768000" />
+      <workItem from="1585161201019" duration="956000" />
+      <workItem from="1585174961832" duration="1594000" />
+      <workItem from="1585176889044" duration="1818000" />
+      <workItem from="1585178767278" duration="843000" />
+      <workItem from="1585180632131" duration="217000" />
+      <workItem from="1585180924961" duration="847000" />
+      <workItem from="1585181846051" duration="1732000" />
+      <workItem from="1585193553367" duration="608000" />
+      <workItem from="1585194241161" duration="64000" />
+      <workItem from="1585194405154" duration="1740000" />
+      <workItem from="1585196816951" duration="851000" />
+      <workItem from="1585235883908" duration="1283000" />
+      <workItem from="1585238185263" duration="993000" />
+      <workItem from="1585245833981" duration="1331000" />
+      <workItem from="1585247253385" duration="1505000" />
+      <workItem from="1585256496811" duration="1721000" />
+      <workItem from="1585258481542" duration="1213000" />
+      <workItem from="1585260722379" duration="1255000" />
+      <workItem from="1585263110345" duration="1747000" />
+      <workItem from="1585265005042" duration="469000" />
+      <workItem from="1585265779691" duration="399000" />
+      <workItem from="1585266536099" duration="510000" />
+      <workItem from="1585267100889" duration="623000" />
+      <workItem from="1585322732495" duration="1409000" />
+      <workItem from="1585325508720" duration="1743000" />
+      <workItem from="1585328411780" duration="1380000" />
+      <workItem from="1585329938147" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1583706130841</created>
@@ -342,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585074275002</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="new">
+      <created>1585090611835</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585090611854</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,14 +396,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1584485918719" />
-    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583972399667">
+    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585260774626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583972399667" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585074272424">
+    <state x="425" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585260774626" />
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585090609312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585074272424" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585090609312" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583972491923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -373,10 +412,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583905184558" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585074279777">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585090615751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585074279777" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585090615751" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583812947076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
